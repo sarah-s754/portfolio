@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Guide
+{% endblock %}
+
+{% block main %}
+    <h1>Field Guide</h1>
+        <br>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-start align-middle">ID</th>
+                <th class="text-start align-middle">Plant Name</th>
+                <th class="text-start align-middle">Image</th>
+                <th class="text-end align-middle">Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for plant in plants %}
+                <tr>
+                    <td class="text-start align-middle">{{ plant["id"] }}</td>
+                    <td class="text-start align-middle">{{ plant["name"] }}</td>
+                    <td class="text-start align-middle"><img src="{{ url_for('static', filename=plant['image_filename']) }}" alt="{{ plant['name'] }} Image" style="width: 40px; height: 40px;"></td>
+                    <td class="text-end align-middle">{{ plant["price"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
