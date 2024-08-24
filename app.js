@@ -34,7 +34,7 @@ const About = () => {
         <div className="about">
             <h2>About Me</h2>
             <p>
-                I am a biomedical engineer with a strong foundation in both engineering and software development.
+                I am a biomedical engineer with a strong foundation in both engineering and software development. 
                 I am eager to apply my expertise in programming and problem-solving to drive innovative software-driven projects within the engineering field.
             </p>
             <p>
