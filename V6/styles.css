@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   padding: 50px 20px; /* Added padding to keep text from touching the edges */
-  background-color: #94DEA5; /* Updated to the new green color */
+  background-color: rgba(148, 222, 165, 0.8); /* Updated to a mostly transparent green */
   color: #333; /* Optional: adjust text color for contrast */
   width: 100%; /* Make header full width */
   box-sizing: border-box; /* Ensure padding is included in width */
@@ -91,7 +91,7 @@ body {
 .footer {
   text-align: center;
   padding: 20px 20px; /* Added padding to keep text from touching the edges */
-  background-color: #94DEA5; /* Updated to the new green color */
+  background-color: rgba(148, 222, 165, 0.8); /* Updated to a mostly transparent green */
   color: #333;
   width: 100%; /* Make footer full width */
   box-sizing: border-box; /* Ensure padding is included in width */
