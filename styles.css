@@ -1,83 +1,79 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
 }
 
 .header {
-  text-align: center;
-  padding: 50px 0;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .header h1 {
-  margin: 0;
-  font-size: 3em;
+    font-size: 2.5em;
+    margin: 0;
 }
 
 .header p {
-  font-size: 1.2em;
+    font-size: 1.2em;
+    margin: 5px 0 20px;
 }
 
-.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
-.project-card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 20px;
-  width: 300px;
-  transition: transform 0.2s;
+.about, .contact {
+    width: 45%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.project-card:hover {
-  transform: scale(1.05);
+.about h2, .contact h2 {
+    margin-top: 0;
 }
 
-.project-card h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+.contact ul {
+    list-style: none;
+    padding: 0;
 }
 
-.project-card p {
-  font-size: 1em;
-  margin-bottom: 15px;
+.contact li {
+    margin: 10px 0;
 }
 
-.project-card a {
-  text-decoration: none;
-  color: #007BFF;
-  font-weight: bold;
+.contact a {
+    text-decoration: none;
+    color: #0073b1;
 }
 
-.project-card a:hover {
-  text-decoration: underline;
+.contact a:hover {
+    text-decoration: underline;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  background: #333;
-  color: white;
-}
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media (max-width: 768px) {
-  .header h1 {
-    font-size: 2.5em;
-  }
-
-  .project-card {
-    width: 100%;
-  }
+    .about, .contact {
+        width: 80%;
+    }
 }
