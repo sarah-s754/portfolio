@@ -1,15 +1,15 @@
 const projects = [
   {
-    title: "Project One",
+    title: "Plant Life",
     description: "A brief description of Project One. This project is about...",
     link: "#",
     imageUrl: "./Images/plant_life.png" // Add image URL for each project
   },
   {
-    title: "Project Two",
+    title: "Zoo Life",
     description: "A brief description of Project Two. This project is about...",
     link: "#",
-    imageUrl: "project2.jpg"
+    imageUrl: "./Images/zoo_life.png"
   },
   {
     title: "Project Three",
