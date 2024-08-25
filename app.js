@@ -1,7 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles.css'; // Ensure your CSS file is correctly linked
-
 const projects = [
   {
     title: "Project One",
