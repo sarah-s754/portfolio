@@ -14,9 +14,11 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 50px 0;
-  background-color: #6ddeaa; /* Set header background color to the specified green */
+  padding: 50px 20px; /* Added padding to keep text from touching the edges */
+  background-color: #94DEA5; /* Updated to the new green color */
   color: #333; /* Optional: adjust text color for contrast */
+  width: 100%; /* Make header full width */
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 .headshot {
@@ -88,9 +90,11 @@ body {
 
 .footer {
   text-align: center;
-  padding: 20px;
-  background-color: #6ddeaa;
+  padding: 20px 20px; /* Added padding to keep text from touching the edges */
+  background-color: #94DEA5; /* Updated to the new green color */
   color: #333;
+  width: 100%; /* Make footer full width */
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 @media (max-width: 768px) {
