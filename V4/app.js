@@ -18,10 +18,10 @@ const projects = [
     imageUrl: "./Images/dragon_raider.png"
   },
   {
-    title: "Project Four",
+    title: "Collecticopter",
     description: "A brief description of Project Four. This project is about...",
     link: "#",
-    imageUrl: "project4.jpg"
+    imageUrl: "./Images/collecticopter.png"
   }
 ];
 
