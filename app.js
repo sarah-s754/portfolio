@@ -1,63 +1,41 @@
+import React from 'react';
+import './styles.css';
+
 const App = () => {
-    return (
-        <div>
-            <Header />
-            <Content />
+  return (
+    <div className="container">
+      <header className="banner">
+        <img src="https://via.placeholder.com/120" alt="Sarah Steele" />
+        <h1>Sarah Steele</h1>
+        <p>Biomedical Engineer & Software Developer</p>
+      </header>
+      <section className="bio">
+        <h2>About Me</h2>
+        <p>
+          Biomedical engineer with a strong foundation in both engineering and software development,
+          seeking to leverage my skills in a role that advances societally beneficial technologies.
+          Eager to apply my expertise in programming and problem-solving to drive innovative,
+          software-driven projects within the engineering field.
+        </p>
+      </section>
+      <section className="projects">
+        <h2>Projects</h2>
+        <div className="project">
+          <h3>Project 1</h3>
+          <p>Description of Project 1.</p>
         </div>
-    );
-};
-
-const Header = () => {
-    return (
-        <div className="header">
-            <img src="https://via.placeholder.com/150" alt="Profile" />
-            <h1>Sarah Steele</h1>
-            <p>Biomedical Engineer & Software Developer</p>
+        <div className="project">
+          <h3>Project 2</h3>
+          <p>Description of Project 2.</p>
         </div>
-    );
-};
+        {/* Add more projects as needed */}
+      </section>
+      <footer>
+        <p>Contact: <a href="mailto:sarah.steele186@gmail.com">sarah.steele186@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sarah-steele1" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/sarah-steele1</a></p>
+      </footer>
+    </div>
+  );
+}
 
-const Content = () => {
-    return (
-        <div className="content">
-            <About />
-            <Contact />
-        </div>
-    );
-};
-
-const About = () => {
-    return (
-        <div className="about">
-            <h2>About Me</h2>
-            <p>
-                I am a biomedical engineer with a strong foundation in both engineering and software development. 
-                I am eager to apply my expertise in programming and problem-solving to drive innovative software-driven projects within the engineering field.
-            </p>
-            <p>
-                My academic qualifications include a Bachelor of Engineering (Honours) (Biomedical) from Swinburne University of Technology,
-                along with professional certifications in DevOps, software engineering, and cloud computing.
-            </p>
-        </div>
-    );
-};
-
-const Contact = () => {
-    return (
-        <div className="contact">
-            <h2>Contact</h2>
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/sarah-steele1" target="_blank" rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:sarah.steele186@gmail.com">sarah.steele186@gmail.com</a>
-                </li>
-            </ul>
-        </div>
-    );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
