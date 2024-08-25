@@ -45,7 +45,6 @@ function App() {
         </p>
       </section>
       <div className="project-list">
-        <h2>Portfolio</h2>
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
