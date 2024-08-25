@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <img src="./Images/headshot.png" alt="Sarah Steele" className="headshot" />
+        <img src="./Images/headshot.jpg" alt="Sarah Steele" className="headshot" />
         <div className="header-text">
           <h1>Sarah Steele</h1>
           <p>Biomedical Engineer & Software Developer</p>
