@@ -3,7 +3,7 @@ const projects = [
     title: "Project One",
     description: "A brief description of Project One. This project is about...",
     link: "#",
-    imageUrl: "plant_life.png" // Add image URL for each project
+    imageUrl: "./Images/plant_life.png" // Add image URL for each project
   },
   {
     title: "Project Two",
