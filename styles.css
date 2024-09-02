@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 50px 20px; /* Added padding to keep text from touching the edges */
+  background-color: rgba(148, 222, 165, 0.8); /* Updated to a mostly transparent green */
+  color: #333; /* Optional: adjust text color for contrast */
+  width: 100%; /* Make header full width */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.header-text {
+  text-align: left;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.header-text p {
+  font-size: 1.2em;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  margin-bottom: 20px; /* Add margin below the link */
+  display: inline-block; /* Ensure margin is applied */
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 20px; /* Space between link and image */
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 20px; /* Added padding to keep text from touching the edges */
+  background-color: rgba(148, 222, 165, 0.8); /* Updated to a mostly transparent green */
+  color: #333;
+  width: 100%; /* Make footer full width */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    margin-bottom: 20px;
+  }
+
+  .header-text h1 {
+    font-size: 2.5em;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
