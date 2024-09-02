@@ -1,5 +1,19 @@
 const projects = [
   {
+    title: "Collecticopter",
+    description: `Collecticopter is a C#-based, multi-level game in which the player flies around collecting items that randomly appear on screen, then uses them to ‘tame’ the creatures present in each level.
+
+Collecting items either increases or decreases the player’s score depending on the type of item. Taming each creature requires the player to have a certain number of points, and the player must have a certain number of the item that the type of creature you are trying to ‘tame’ wants.`,
+    link: "https://github.com/sarah-s754/Collecticopter.git",
+    imageUrl: "./Images/collecticopter.png"
+  },
+  {
+    title: "Dragon Raider",
+    description: `Dragon raider is a ruby-based multilevel game where the player must move around platform-based stages in order to collect enough of the coins located throughout the stage to proceed to the next level. The player must also avoid fireballs that explode when they make contact with the player and are fired by dragons that fly across the screen.`,
+    link: "https://github.com/sarah-s754/Dragon-Raider.git",
+    imageUrl: "./Images/dragon_raider.png"
+  },
+  {
     title: "Plant Life",
     description: `Plant Life is a web-based application using Python, Flask and JavaScript in which users can create and cultivate a virtual garden.
 
@@ -14,20 +28,6 @@ This virtual garden takes the form of a game or mindfulness activity that encour
 Through this program, users can adopt animals into their virtual zoo, view the animals in their zoo as emoji representations of the animals they've adopted, view a count of all the animals they currently have in their zoo, and "pat" their animals to receive a visual display of the animal's appreciation in the form of concatenated heart emojis.`,
     link: "https://github.com/me50/sarah-s754.git",
     imageUrl: "./Images/zoo_life.png"
-  },
-  {
-    title: "Dragon Raider",
-    description: `Dragon raider is a ruby-based multilevel game where the player must move around platform-based stages in order to collect enough of the coins located throughout the stage to proceed to the next level. The player must also avoid fireballs that explode when they make contact with the player and are fired by dragons that fly across the screen.`,
-    link: "https://github.com/sarah-s754/Dragon-Raider.git",
-    imageUrl: "./Images/dragon_raider.png"
-  },
-  {
-    title: "Collecticopter",
-    description: `Collecticopter is a C#-based, multi-level game in which the player flies around collecting items that randomly appear on screen, then uses them to ‘tame’ the creatures present in each level.
-
-Collecting items either increases or decreases the player’s score depending on the type of item. Taming each creature requires the player to have a certain number of points, and the player must have a certain number of the item that the type of creature you are trying to ‘tame’ wants.`,
-    link: "https://github.com/sarah-s754/Collecticopter.git",
-    imageUrl: "./Images/collecticopter.png"
   }
 ];
 
